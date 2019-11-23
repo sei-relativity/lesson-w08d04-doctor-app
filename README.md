@@ -1,4 +1,4 @@
-# Recipe App
+# Doctor App
 
 ## Steps 
 1. clone to your computer
