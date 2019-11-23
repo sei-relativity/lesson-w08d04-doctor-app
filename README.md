@@ -1,24 +1,8 @@
-# README
+# Recipe App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Steps 
+1. clone to your computer
+1. cd into the app folder
+1. run `bundle install`
+1. run `rails db:reset db:migrate db:seed`
+1. start the rails server by `rails s`
