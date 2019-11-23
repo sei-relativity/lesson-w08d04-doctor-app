@@ -1,0 +1,20 @@
+  
+<%= form_for @appointment do |form| %>
+
+  <div class="field">
+    <%= form.label :reason %>
+    <%= form.text_field :reason %>
+  </div>
+
+  <div class="field">
+    <%= form.select :doctor_id, Doctor.all.collect { |p| [ p.name, p.id ] } %>
+  </div>
+  
+  <div class="field">
+    <%= form.select :patient_id, Patient.all.collect { |p| [ p.name, p.id ] } %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -8,7 +8,7 @@ class PatientsController < ApplicationController
   end
 
   def new
-    @patient = patient.new
+    @patient = Patient.new
   end
 
   def create
